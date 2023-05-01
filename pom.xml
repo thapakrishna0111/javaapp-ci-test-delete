@@ -32,5 +32,29 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
+        <build>
+          <plugins>
+            <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+              <groupId>org.springframework.boot</groupId>
+              <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>build-info</goal>
+                <goals>
+              </execution>
+            </executions>
+            <plugin>
+              <groupId>p1.project13.maven</groupId>
+              <artifactId>git-commit-id-plugin</artifactId>
+            </plugin>
+          </plugins>
+          <finalName>devops-integration</finalName>
+        </build>
 
 </project>
