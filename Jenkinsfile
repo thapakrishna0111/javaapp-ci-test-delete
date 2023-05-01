@@ -29,6 +29,21 @@ pipeline{
 
       }
     }
+    stage('Docker build and docker pushed to Nexus repo') {
+      steps {
+        script{
+        
+
+
+
+        }
+
+
+      }
+
+    }
+
+
 
   }
 }
